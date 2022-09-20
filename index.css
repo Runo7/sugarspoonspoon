@@ -1,0 +1,159 @@
+body {
+  background-image:  url('mj/mj17.png');
+  background-size: 100%, 20rem;
+  background-repeat: no-repeat;
+}
+
+nav {
+
+  margin: auto;
+  width: 100rem;
+  height: 6rem;
+  border-radius: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 1rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  padding-bottom: 5px;
+
+}
+
+nav li {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 14rem;
+
+}
+
+h1 {
+  color: black;
+  margin-left: 2rem;
+  opacity: 1;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+
+em {
+  margin-left: 2rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.boxTopReft {
+  margin-top: 5rem;
+  margin-left: 20rem;
+
+  height: 17rem;
+  width: 20rem;
+  border-radius: 1rem;
+
+  background-color: rgba(255,255,255, 0.3);
+}
+hr {
+  margin-top: 3rem;
+}
+
+.boxUnderHr {
+  display: flex;
+  background-color: #ffbfff;
+  margin-top: 53rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding-bottom: 22rem;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 11rem;
+  padding-right: 5rem;
+  cursor: pointer;
+  flex: 0.2;
+  position:   relative;
+  transition: flex 0.7s ease-in;
+  color: white;
+}
+.panel h3 {
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  left: 25 drem;
+  opacity: 0;
+}
+.panel.active h3 {
+  opacity: 1;
+}
+.panel.active {
+  flex: 5;
+  width: 20rem;
+  height: 20rem;
+}
+
+.r {
+  margin-right: 18rem;
+}
+
+@media(max-width: 180px) {
+  .boxUnderHr {
+    width: 100vw;
+  }
+
+  .panel: nth-of-type(4),
+  .panel: nth-of-type(5) {
+    display: none;
+  }
+}
+
+.legal-content {
+  padding: 8px;
+  margin-top: 4rem;
+  margin-left: 45rem;
+}
+.botContainer {
+  background-color: #ffbfff;
+  padding-bottom: 11rem;
+  border-radius: 1rem;
+  padding-bottom: 30rem;
+}
+
+.avatar {
+  margin-right: 4rem;
+  width: 16rem;
+  height: 16rem;
+  float: right;
+}
+
+.text {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+.map {
+  float: left;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+
+@media (max-width: 800px) (
+   .flex{
+     flex-direction: column;
+  )
+}
